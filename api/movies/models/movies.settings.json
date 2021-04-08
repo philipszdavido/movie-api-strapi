@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "movies",
+  "info": {
+    "name": "movies",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "synopsis": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "genre": {
+      "type": "string"
+    }
+  }
+}
